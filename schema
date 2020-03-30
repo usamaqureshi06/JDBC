@@ -1,0 +1,47 @@
+Insert into country(cid,cname) values 
+(1, 'USA'),
+(2,'Canada'),
+(3,'Mexico'),
+(4,'Spain'),
+(5,'Cuba');
+
+
+Insert into player(pid,pname,globalrank,cid) values 
+(100, 'Mike',5,1),
+(101,'Bianca',1,2),
+(102,'Garcia',3,3),
+(103,'Nadal',2,4),
+(104,'Casandra',4,5);
+
+Insert into record(pid,year,wins,losses) values 
+(100,2018,0,5),
+(101,2019,5,0),
+(102,2017,2,3),
+(103,2018,4,1),
+(104,2016,1,4);
+
+Insert into tournament(tid,tname,cid) values 
+(1001,'GrandSlam',1),
+(1002,'SpanishOpen',4),
+(1003,'York',2),
+(1004,'ChupaCabra',3),
+(1005,'HavanaOpen',5);
+
+Insert into court(courtid,courtname,capacity,tid) values 
+(001,'greenTurf',500,1001),
+(002,'SilverScreen',300,1003),
+(003,'MulaMula',420,1004),
+(004,'MadridGreen',600,1002),
+(005,'AlbelaOpen',90,1005);
+
+Insert into champion(pid,year,tid) values 
+(101,2018,1001),
+(101,2019,1003),
+(103,2017,1002),
+(102,2016,1005);
+
+Insert into event(eid,year,courtid,winid,lossid,duration) values 
+(1100,2018,001,101,100,77),
+(2200,2019,002,101,102,67),
+(3300,2017,003,102,100,57),
+(4400,2016,005,104,100,97);
