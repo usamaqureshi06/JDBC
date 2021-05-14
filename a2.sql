@@ -1,11 +1,3 @@
-/******************************************************************************
- * EECS3421: Introduction to Databases
- * Assignment 2: Interactive and Embedded SQL
- * Student Name: Umar Abdulselam, Tamim Chowdhury
- * Student EECS account: uaabduls, tamim1
- * Student ID: 215995616, 213687272
- ******************************************************************************/
-
 SET search_path TO A2;
 -- Add below your SQL statements.
 -- For each of the queries below, your final statement should populate the respective answer table (queryX) with the correct tuples. It should look something like:
